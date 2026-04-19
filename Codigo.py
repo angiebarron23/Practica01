@@ -30,4 +30,4 @@ def set_tipo_cuenta(self,tipo_cuenta):
    self.__tipo_cuenta=tipo_cuenta
 
 def set_activa(self,activa):
-   self:__activa=activa
+   self.__activa=activa 
