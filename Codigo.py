@@ -31,3 +31,14 @@ def set_tipo_cuenta(self,tipo_cuenta):
 
 def set_activa(self,activa):
    self.__activa=activa 
+
+
+
+#Metodo 1: depositar dinero 
+def depositar(self,cantidad):
+   if cantidad>0:
+      self.__saldo+=cantidad
+      print("Deposito realizado")
+    else 
+      print("Cantidad invalida") 
+            
