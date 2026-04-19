@@ -20,6 +20,14 @@ def get_tipo_cuenta(self):
     return self.__tipo_cuenta
 
 def get_activa(self):
-    return self._activa 
+    return self.__activa 
 
+# setters 
+def set_titular(self,titular):
+   self.__titular=titular
 
+def set_tipo_cuenta(self,tipo_cuenta):
+   self.__tipo_cuenta=tipo_cuenta
+
+def set_activa(self,activa):
+   self:__activa=activa
