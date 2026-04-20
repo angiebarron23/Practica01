@@ -42,3 +42,12 @@ def depositar(self,cantidad):
     else 
       print("Cantidad invalida") 
             
+
+
+ #Metodo 2: retirar dinero 
+ def retirar(self,cantidad):
+   if cantidad<=self.__saldo:
+      self.__saldo-=cantidad
+      print("Retiro realizado") 
+    else 
+      print ("Fondos insuficientes") 
