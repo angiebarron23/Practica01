@@ -48,10 +48,18 @@ class CuentaBancaria:
         else:
             print("Fondos insuficientes")
 
-
-#metodo extra 
+     #metodo extra 
     def desactivar_cuenta(self):
         self.__activa = False
+
+    #metodo info
+    def info(self):
+        print("Número de cuenta:", self.__numero_cuenta)
+        print("Titular:", self.__titular)
+        print("Saldo:", self.__saldo)
+        print("Tipo de cuenta:", self.__tipo_cuenta)
+        print("Activa:", self.__activa) 
+
 
 
 
